@@ -8,6 +8,7 @@
     <title>Crystal Collector 2</title>
     <link rel="stylesheet"  href="assets/css/reset.css">
     <link rel="stylesheet"  href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     
 </head>
@@ -15,8 +16,9 @@
 <body>
     <h1><strong>Crystal Collector 2: Electric Boogaloo</strong></h1>
     <br>
+    <br>
 
-    <div>
+    <div class="rules">
         <p>A number has been chosen at random.
         </p><br>
         <p>Each crystal below has been given a hidden value. Click on any of them to add that hidden value to your score.
@@ -25,10 +27,19 @@
         <br>
     </div>
 
-    <img src="assets/images/Aquamarine_.png">
-    <img src="assets/images/green_gem.png">
-    <img src="assets/images/Citrine_gem.png">
-    <img src="assets/images/purple_gem.png">
+    <div class="images">
+        <img src="assets/images/Aquamarine_.png">
+        <img src="assets/images/green_gem.png">
+        <img src="assets/images/Citrine_gem.png">
+        <img src="assets/images/purple_gem.png">
+    </div>
+
+    <div class="randomNumber"></div>
+
+    <div class="score"></div>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 

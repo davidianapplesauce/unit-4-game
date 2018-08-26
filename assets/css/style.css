@@ -6,3 +6,20 @@ h1 {
     text-align: center;
     text-shadow:  0 0 35px rgb(18, 80, 194);
 }  
+
+.rules {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    font: 1.2em sans-serif;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
