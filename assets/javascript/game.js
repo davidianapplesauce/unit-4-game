@@ -26,6 +26,10 @@ var crystals= ["assets/images/Aquamarine_.png", "assets/images/green_gem.png", "
         $(".images").append(imageCrystal);
 
     }}
+
+    function resetHTML () {
+        $(".randomNumber").html(targetNumber);}
+        
     $(".images").on("click", function() {
 
         var crystalvalue= ($(this).attr("data-crystalvalue"));
