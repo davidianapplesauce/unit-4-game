@@ -10,26 +10,22 @@ var crystals= ["assets/images/Aquamarine_.png", "assets/images/green_gem.png", "
         targetNumber= Math.floor(Math.random() * 50) + 21;
         
 }
+//This(below) wasn't working:
+// $("#randomNumber").text(randomtargetNumber);
 
-$("#randomNumber").text(randomtargetNumber);
+//     function crystalClick() {
 
-    function crystalClick() {
-
-    } 
+    function resetCrystals () {
     
     for (var i = 0; i <crystals.length; i++) {
 //not sure about this part
         var imageCrystal = $("<img>");
-
         imageCrystal.addClass("images");
+        imageCrystal.attr("src", crystals[i])
+        crystal.attr("value", (Math.floor(Math.random() * 12) + 1));
+        $(".images").append(imageCrystal);
 
-        imageCrystal.attr("crystals")
-
-        imageCrystal.attr("data-crystalvalue", crystals[i]);
-
-        $("#crystals").append(imageCrystal);
-
-    }
+    }}
     $(".images").on("click", function() {
 
         var crystalvalue= ($(this).attr("data-crystalvalue"));
