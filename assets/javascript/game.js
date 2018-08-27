@@ -1,6 +1,6 @@
 //variables (no wins or losses yet)
 
-var targetNumber= "";
+var targetNumber= '';
 var yourScore= 0;
 var crystals= ["assets/images/Aquamarine_.png", "assets/images/green_gem.png", "assets/images/Citrine_gem.png", "assets/images/purple_gem.png"];
 
@@ -10,6 +10,7 @@ var crystals= ["assets/images/Aquamarine_.png", "assets/images/green_gem.png", "
         targetNumber= Math.floor(Math.random() * 50) + 21;
         
 }
+
 //This(below) wasn't working:
 // $("#randomNumber").text(randomtargetNumber);
 
