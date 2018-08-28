@@ -29,3 +29,19 @@ h1 {
     margin-right: auto;
     width: 50%;
 }
+
+#randomNumber {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 79px;
+    text-align: center;
+    text-shadow:  0 0 35px rgb(194, 14, 30);
+    margin-top: 1.5%;
+}
+
+.score {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 41px;
+    margin-top: 50px;
+    position: absolute;
+    left: 500px;
+}
